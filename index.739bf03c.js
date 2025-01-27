@@ -640,9 +640,6 @@ document.querySelector("#startshizuku").addEventListener("click", ()=>{
     }
     for (const pop of document.querySelectorAll(".pop"))pop.addEventListener("click", popper);
 })();
-document.querySelector("#app_repo_launcher").addEventListener("click", ()=>{
-    new _bootstrap.Modal(document.querySelector("#app_repo")).show();
-});
 (0, _common.monitor_usb)(device_list, monitor);
 
 },{"./common":"2ASYY","bootstrap":"h36JB"}],"h36JB":[function(require,module,exports) {
